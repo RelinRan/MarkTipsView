@@ -42,6 +42,15 @@ dependencies {
 ~~~
 # attrs.xml
 ~~~
+<!--标识三角形边长-->
+<attr name="triangleSide" format="dimension" />
+<!--标识三角形高度-->
+<attr name="markRadius" format="dimension" />
+<!--标识填充颜色-->
+<attr name="markSolid" format="color" />
+~~~
+# 使用
+~~~
 MarkTipsView mark_tips = findViewById(R.id.mark_tips);
 //背景颜色
 mark_tips.setMarkSolid(Color.parseColor("#AA66CC"));

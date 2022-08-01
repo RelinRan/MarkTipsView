@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标识三角形边长-->
+    <attr name="triangleSide" format="dimension" />
+    <!--标识三角形高度-->
+    <attr name="markRadius" format="dimension" />
+    <!--标识填充颜色-->
+    <attr name="markSolid" format="color" />
+    <declare-styleable name="MarkTipsView">
+        <attr name="triangleSide" />
+        <attr name="markRadius" />
+        <attr name="markSolid" />
+    </declare-styleable>
+</resources>
